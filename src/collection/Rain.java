@@ -9,8 +9,6 @@ public class Rain {
 
 	String month;
 	int median;
-
-	
 	
 	public Rain(String string, int i) {
 		this.month = string;
@@ -46,8 +44,7 @@ public class Rain {
 		for (int i = 0; i < rain.size(); i++) {
 			if(rain.get(i).median > soma) {
 			System.out.println(i + " - " + rain.get(i).month);
-			
-		}		
-	}
+			}		
+		}
 	}
 }
